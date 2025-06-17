@@ -39,14 +39,17 @@ Vai su http://localhost:8080/h2-console
 ```bash
 ./gradlew test
 ```
-📬 API Endpoints principali
-Metodo	Endpoint	Descrizione
-GET	/libri	Lista di tutti i libri
-POST	/libri	Aggiungi un nuovo libro
-PUT	/libri/{id}	Modifica libro
-DELETE	/libri/{id}	Elimina libro
-GET	/autori	Lista di tutti gli autori
-POST	/autori	Aggiungi un autore
+## 📬 API Endpoints principali
+
+| Metodo | Endpoint      | Descrizione                |
+|--------|---------------|----------------------------|
+| GET    | /libri        | Lista di tutti i libri     |
+| POST   | /libri        | Aggiungi un nuovo libro    |
+| PUT    | /libri/{id}   | Modifica libro             |
+| DELETE | /libri/{id}   | Elimina libro              |
+| GET    | /autori       | Lista di tutti gli autori  |
+| POST   | /autori       | Aggiungi un autore         |
+
 
 👤 Autore
 Luca Manzo
